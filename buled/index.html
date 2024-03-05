@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1e1e1e;
+        }
+
+        .clock {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            padding: 20px;
+            box-shadow: 0 0 20px #1e1e1e, 0 0 30px #1e1e1e;
+        }
+        .clock-hand {
+            position: absolute;
+            width: 50%;
+            height: 2px;
+            transform-origin: 100%;
+            transform: rotate(0deg);
+            transition: transform 0.05s;
+        }
+
+        .clock-hand.hours {
+            background-color: #e84118;
+            height: 4px;
+        }
+        .clock-hand.minutes {
+            background-color: #fbc531;
+        }
+
+        .clock-hand.seconds {
+            background-color: #3fbc07;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="clock-hand hours"></div>
+        <div class="clock-hand minutes"></div>
+        <div class="clock-hand seconds"></div>
+    </div>
+    <script>
+        function updateClock() {
+            let now = new Date();
+            let hours = now.getHours();
+            let minutes = now.getMinutes();
+            let seconds = now.getSeconds();
+
+            document.querySelector('.clock-hand.hours').style.transform
+</body>
+</html> -->

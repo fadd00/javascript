@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(97, 86, 51);
+      }
+      .judul {
+        color: rgb(185, 209, 140);
+        font-size: 40px;
+      }
+      #judul {
+        color: rgb(129, 170, 206);
+      }
+      p {
+        color: rgb(180, 138, 219);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="judul">test</h1>
+    <p>Lorem</p>
+    <h1 class="judul">test</h1>
+    <script>
+      document.getElementById("judul").innerHTML = "adalah";
+      document.getElementsByTagName("p")[0].innerHTML = "kenapa";
+      document.getElementsByClassName("judul")[0].innerHTML = "ber";
+      document.getElementsByTagName(p)[0].setAttribute("class", "blue");
+    </script>
+  </body>
+</html>
